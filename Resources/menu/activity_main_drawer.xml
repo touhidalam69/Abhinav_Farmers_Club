@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+  <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_products"
+        android:title="PRODUCTS" />
+    <item
+        android:id="@+id/nav_my_cart"
+        android:title="MY CART" />
+    <item
+        android:id="@+id/nav_my_orders"
+        android:title="MY ORDERS" />
+    <item
+        android:id="@+id/nav_address"
+        android:title="ADDRESS" />
+    <item
+         android:id="@+id/nav_feedback"
+         android:title="FEEDBACK" />
+    <item
+        android:id="@+id/nav_contact"
+        android:title="CONTACT" />
+    <item
+        android:id="@+id/nav_privacy"
+        android:title="PRIVACY POLICY" />
+    <item
+        android:id="@+id/nav_sign_out"
+        android:title="SIGN OUT" />
+  </group>
+</menu>
