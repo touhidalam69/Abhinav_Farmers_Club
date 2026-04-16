@@ -180,6 +180,7 @@ namespace Abhinav_Farmers_Club.FragmentsLib
     public class Product
     {
         public int ProductId { get; set; }
+        public string CategoryId { get; set; }
         public string Category { get; set; }
         public double ProductPrice { get; set; }
         public string ProductName { get; set; }
@@ -187,6 +188,7 @@ namespace Abhinav_Farmers_Club.FragmentsLib
         public string PrdSize { get; set; }
         public double Qty { get; set; }
         public int Icon { get; internal set; }
+        public string ImageUrl { get; set; }
     }
     public class ProductDataAccess
     {
